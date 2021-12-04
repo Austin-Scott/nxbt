@@ -3,39 +3,16 @@ let NXBT_CONTROLLER_INDEX = false;
 
 const KEYMAP = {
     // Left Stick
-    87: "LS_UP",
-    65: "LS_LEFT",
-    68: "LS_RIGHT",
-    83: "LS_DOWN",
-    84: "LS_PRESS",
+    69: "LS_LEFT",
+    82: "LS_RIGHT",
     // Right Stick
-    38: "RS_UP",
-    37: "RS_LEFT",
-    39: "RS_RIGHT",
-    40: "RS_DOWN",
-    89: "RS_PRESS",
-    // Dpad
-    71: "DPAD_UP",
-    86: "DPAD_LEFT",
-    78: "DPAD_RIGHT",
-    66: "DPAD_DOWN",
-    // Home & Capture
-    219: "HOME",
-    221: "CAPTURE",
-    // Plus & Minus
-    54: "PLUS",
-    55: "MINUS",
+    85: "RS_LEFT",
+    73: "RS_RIGHT",
     // A B X Y
-    76: "A",
-    75: "B",
-    73: "X",
-    74: "Y",
-    // L & ZL
-    49: "L",
-    50: "ZL",
-    // R & ZR
-    56: "ZR",
-    57: "R",
+    75: "A",
+    74: "B",
+    68: "X",
+    70: "Y",
 }
 
 const LEFT_STICK = [
